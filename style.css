@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.header .logo {
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 10%;    
+}
+
+.header .logo a{
+   font-size: 30px;
+   text-decoration: none;
+   color: #000;
+}
+
+
+.header .feedback {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .feedback a{
+   text-decoration: none;
+   font-weight: bold;
+   color: #000;
+}
+
+.header .feedback a:hover{
+   text-decoration: underline;
+}
+
+.content {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.content h1,
+.content p {
+    text-align: center;
+}
+
+.content p {
+    color: grey;
+}
+
+.content div {
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content div img {
+    margin-left: -110px;
+}
+.content div span {
+    margin-left: 10px;
+
+
+}
+.content div img {
+    margin-right: -95px;
+    
+}
+
+.footer {
+    border: 1px solid grey;
+    width: 98%;
+    margin: auto;
+}
+
+.footer .signup {
+    width: 100%;
+    margin: auto;
+    height: 50px;
+}
+
+.footer .signup p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .signup p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer .signup p a:hover {
+    text-decoration: underline;
+}
+ 
+.footer .copy{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+} 
+
+.footer .copy select {
+    padding: 10px;
+    color: white;
+    background: black;
+    border: 0.5px solid grey;
+
+}
+
+
+
+
